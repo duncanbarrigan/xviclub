@@ -65,7 +65,7 @@ p {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 aside {
@@ -266,7 +266,7 @@ header .header-content .header-content-inner p {
 
 .donate-box {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .donate-selection {
