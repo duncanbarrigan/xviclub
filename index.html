@@ -56,10 +56,10 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#support">Support</a>
+                        <a class="page-scroll" href="#gallery">Gallery</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#gallery">Gallery</a>
+                        <a class="page-scroll" href="#signup">Support</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -89,15 +89,15 @@
                     <h2 class="section-heading">About the XVI Club</h2>
                     <hr class="light">
                     <p class="text-faded">The XVI Club is the alumni association of the Cambridge University Lacrosse Club. We organise alumni events and provide advice and financial support to CULC.</p>
-                    <p class="text-faded">The society is named after a now-defunct group for senior players within the lacrosse club which had 16 rules.</p>
+                    <p class="text-faded">The XVI Club is named after an old society within the lacrosse club which was limited to the 16 most senior players.</p>
                     <a href="#signup" class="btn btn-default btn-xl page-scroll" >Join the XVI Club</a>
-                    <a href="#signup" class="btn btn-default btn-xl page-scroll">Donate online</a>
+                    <a href="#donate" class="btn btn-default btn-xl page-scroll">Donate online</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="support">
+    <section>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -169,8 +169,8 @@
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Join Now and Support CULC!</h2>
-                <a href="#signup" class="btn btn-default btn-xl">Join the XVI Club</a>
-                <a href="#signup" class="btn btn-default btn-xl">Donate online</a>
+                <a href="#signup" class="btn btn-default btn-xl page-scroll">Join the XVI Club</a>
+                <a href="#donate" class="btn btn-default btn-xl page-scroll">Donate online</a>
             </div>
         </div>
     </aside>
@@ -184,17 +184,41 @@
                     <p class="text-muted">To become a member, select a package below to set up a regular donation to the XVI Club. All of our memberships renew automatically - you will be taken to a secure payment page hosted by <a href="https://gocardless.com">GoCardless</a> to set up a Direct Debit.</p>
                     <p class="text-muted">We keep in touch via email. If you don't already receive our messages then sign up below.</p>
                 </div>
-                <div id="userform" class="row">
+                <div id="userform">
 
                     <!-- Begin MailChimp Signup Form -->
                     <div id="mc_embed_signup">
-                    <form action="//xviclub.us9.list-manage.com/subscribe/post?u=55d312556459b21c57419ff39&amp;id=fdb4b2b034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                        <div id="mc_embed_signup_scroll">
-                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
+                    <form action="https://xviclub.us9.list-manage.com/subscribe/post?u=55d312556459b21c57419ff39&id=fdb4b2b034" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-horizontal" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                        <div class="mc-field-group form-group">
+                            <label for="mce-EMAIL" class="col-sm-2 col-sm-offset-3 control-label">Email Address </label>
+                            <div class="col-sm-4">
+                            <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL">
+                            </div>
+                        </div>
+                        <div class="mc-field-group form-group">
+                            <label for="mce-FNAME" class="col-sm-2 col-sm-offset-3 control-label">First Name </label>
+                            <div class="col-sm-4">
+                            <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME">
+                            </div>
+                        </div>
+                        <div class="mc-field-group form-group">
+                            <label for="mce-LNAME" class="col-sm-2 col-sm-offset-3 control-label">Last Name </label>
+                            <div class="col-sm-4">
+                            <input type="text" value="" name="LNAME" class="form-control" id="mce-LNAME">
+                            </div>
+                        </div>
+                        <div class="mc-field-group form-group">
+                            <label for="mce-MMERGE3" class="col-sm-2 col-sm-offset-3 control-label">Matriculation Year </label>
+                            <div class="col-sm-4">
+                            <input type="text" value="" name="MMERGE3" class="form-control" id="mce-MMERGE3">
+                            </div>
+                        </div>
+
                         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_55d312556459b21c57419ff39_fdb4b2b034" tabindex="-1" value=""></div>
                         <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-xl btn-spaced"></div>
-                        </div>
+                    </div>
                     </form>
                     </div>
 
@@ -206,7 +230,7 @@
                     <div class="col-lg-3 donate-selection">
                         <h3>New Graduate</h3>
                         <h4>£2/month</h4>
-                        <p>Pays for one training session on astroturf</p>
+                        <p>Pays for a new bag of lacrosse balls</p>
                         <div class="btn-group" role="group">
                             <a href="https://pay.gocardless.com/AL00000279B0M8" class="btn btn-default btn-donate">Monthly</a>
                             <a href="https://pay.gocardless.com/AL0000027A2BAS" class="btn btn-default btn-donate">Annual</a>
@@ -215,7 +239,7 @@
                     <div class="col-lg-3 donate-selection">
                         <h3>Bronze</h3>
                         <h4>£5/month</h4>
-                        <p>Pays for one training session on astroturf</p>
+                        <p>Pays for a training session with a coach</p>
                         <div class="btn-group" role="group">
                             <a href="https://pay.gocardless.com/AL0000027BFPTF" class="btn btn-default btn-donate">Monthly</a>
                             <a href="https://pay.gocardless.com/AL0000027C3AKZ" class="btn btn-default btn-donate">Annual</a>
@@ -224,7 +248,7 @@
                     <div class="col-lg-3 donate-selection">
                         <h3>Silver</h3>
                         <h4>£10/month</h4>
-                        <p>Pays for one training session on astroturf</p>
+                        <p>Pays for a helmet to train a new player</p>
                         <div class="btn-group" role="group">
                             <a href="https://pay.gocardless.com/AL0000027DWQSD" class="btn btn-default btn-donate">Monthly</a>
                             <a href="https://pay.gocardless.com/AL0000027E8BKG" class="btn btn-default btn-donate">Annual</a>
@@ -233,7 +257,7 @@
                     <div class="col-lg-3 donate-selection">
                         <h3>Gold</h3>
                         <h4>£20/month</h4>
-                        <p>Pays for one training session on astroturf</p>
+                        <p>Pays for pitch hire for eight home matches</p>
                         <div class="btn-group" role="group">
                             <a href="https://pay.gocardless.com/AL0000027FYBHC" class="btn btn-default btn-donate">Monthly</a>
                             <a href="https://pay.gocardless.com/AL0000027GSAPR" class="btn btn-default btn-donate">Annual</a>
