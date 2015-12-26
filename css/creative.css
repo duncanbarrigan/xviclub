@@ -354,6 +354,7 @@ header .header-content .header-content-inner p {
     border-color: #fff;
     color: #222;
     background-color: #fff;
+    margin: 5px;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -410,6 +411,10 @@ fieldset[disabled] .btn-default.active {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+}
+
+.btn-spaced {
+    margin: 15px;
 }
 
 .btn-primary:hover,
